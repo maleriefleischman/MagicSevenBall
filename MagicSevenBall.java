@@ -3,8 +3,9 @@ public class MagicSevenBall{
 	public static void main( String [] args ){
 	int prediction;
 	
-	prediction = 1 + (int)( 7*Math.random() );
+	prediction = 1 + (int)( 7*Math.random() ); //generates a random number between 1 and 7
 	
+	//kind of like a magic 8 ball, this boolean provides a random bit of relationship advice based on the random number that is generated above
 		if (prediction == 1) {
 			System.out.println( "Stay together" );
 		}
@@ -28,4 +29,6 @@ public class MagicSevenBall{
 		}
 	}
 }
+
+//My boyfriend of 2 years cheated on me and I am unhappy
 		
