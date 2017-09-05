@@ -1,32 +1,30 @@
-public class MagicSevenBall
-{
-	public static void main( String [] args )
-	{
-	String a="Stay together", b="Take a break", c="Break up", d="Wait another day", e="Try an open relationship", f="Talk it out", g= "Lay in bed and cry";
+public class MagicSevenBall{
+
+	public static void main( String [] args ){
 	int prediction;
 	
 	prediction = 1 + (int)( 7*Math.random() );
 	
 		if (prediction == 1) {
-			System.out.println( a );
+			System.out.println( "Stay together" );
 		}
 		else if (prediction == 2) {
-			System.out.println( b );
+			System.out.println( "Take a break" );
 		}
 		else if (prediction == 3) {
-			System.out.println( c );
+			System.out.println( "Break up" );
 		}
 		else if (prediction == 4) {
-			System.out.println( d );
+			System.out.println( "Wait another day );
 		}
 		else if (prediction == 5) {
-			System.out.println( e );
+			System.out.println( "Try an open relationship" );
 		}
 		else if (prediction == 6) {
-			System.out.println( f );
+			System.out.println( "Talk it out" );
 		}
 		else {
-		System.out.println( g);
+		System.out.println( "Lay in bed and cry" );
 		}
 	}
 }
