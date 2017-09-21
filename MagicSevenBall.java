@@ -30,5 +30,5 @@ public class MagicSevenBall{
 	}
 }
 
-//My boyfriend of 2 years cheated on me and I am unhappy
+
 		
