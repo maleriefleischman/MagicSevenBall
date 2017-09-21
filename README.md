@@ -1,2 +1,2 @@
 # MagicSevenBall
-Breakups are hard
+Demonstration of being able to generate and utilize a randomly generated number
